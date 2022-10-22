@@ -12,27 +12,27 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="header">
+  <header id="header" class="header">
     <div class="container">
       <div class="menu">
-        <img class="menu__logo" src="img/logo/logo.svg" alt="Piped Piper" >
+        <a href="#home"><img class="menu__logo" src="img/logo/logo.svg" alt="Piped Piper" ></a>
         <ul class="menu__ul">
-          <li class="menu__li">the problem</li>
+          <li class="menu__li"><a href="#problem">the problem</a></li>
           <li class="menu__li">|</li>
-          <li class="menu__li">PiedPiperCoin</li>
+          <li class="menu__li"><a href="#coin">PiedPiperCoin</a></li>
           <li class="menu__li">|</li>
-          <li class="menu__li">the team</li>
+          <li class="menu__li"><a href="#team">the team</a></li>
         </ul>
       </div>
     </div>
-    <div class="home">
-      <div class="home__title">
-        PiperNet Is Here
-      </div>
-    </div>
   </header>
+  <div id="home" class="home">
+    <div class="home__title">
+      PiperNet Is Here
+    </div>
+  </div>
   <main>
-    <div class="problem">
+    <div id="problem" class="problem">
       <div class="container">
         <div class="title">
           The Problem
@@ -59,7 +59,7 @@
         <em>We’re in this together! All of our computers and phones join in a network to make the strongest supercomputer the world has ever seen.</em>
       </div>
     </div>
-    <div class="coin">
+    <div id="coin" class="coin">
       <div class="container">
         <div class="title">
           Introducing PiedPiperCoin
@@ -82,7 +82,7 @@
         </div>
       </div>
     </div>
-    <div class="team">
+    <div id="team" class="team">
       <div class="container">
         <div class="title">
           The Team

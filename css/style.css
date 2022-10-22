@@ -1,16 +1,17 @@
-body{
+body{     /*comment */
   font-family: 'Roboto', sans-serif;
   background-color: gainsboro;
 }
 .container{
-  max-width: 1110px;
   margin: 0 auto;
-  
+  width: 1219px;
+  padding: 0 55px;
 }
-.header{
+.header{ 
   background-color: #007765;
   color: #ffffff;
-  background-image: url(bg.jpeg);
+  position: fixed;
+  width: 100%;
 }
 .menu{
   height: 84px;
@@ -27,13 +28,19 @@ body{
   font-weight: 500;
   font-size: 24px;
 }
+.menu__li a{
+  text-decoration: none;
+  color: #ffffff
+}
 .home{
+  padding-top: 60px;
   background-image: url(../img/bg/head.jpg);
   background-size: cover;
   height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
+ color: #ffffff;
 }
 .home__title{
   font-weight: 500;
