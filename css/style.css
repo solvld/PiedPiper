@@ -10,7 +10,8 @@ body{
 .header{
   background-color: #007765;
   color: #ffffff;
-  background-image: url(bg.jpeg);
+  position: fixed;
+  width: 100%;
 }
 .menu{
   height: 84px;
@@ -32,12 +33,14 @@ body{
   color: #ffffff
 }
 .home{
+  padding-top: 60px;
   background-image: url(../img/bg/head.jpg);
   background-size: cover;
   height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
+ color: #ffffff;
 }
 .home__title{
   font-weight: 500;
