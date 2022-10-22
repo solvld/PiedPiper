@@ -3,14 +3,17 @@ body{
   background-color: gainsboro;
 }
 .container{
-  max-width: 1110px;
+  width: 1219px;
+  padding: 0 55px;
   margin: 0 auto;
+  border: solid greenyellow;
   
 }
 .header{
+  width: 100%;;
   background-color: #007765;
   color: #ffffff;
-  background-image: url(bg.jpeg);
+  position: fixed;
 }
 .menu{
   height: 84px;
@@ -28,6 +31,8 @@ body{
   font-size: 24px;
 }
 .home{
+  color: #ffffff;
+  padding-top: 60px;
   background-image: url(../img/bg/head.jpg);
   background-size: cover;
   height: 400px;
